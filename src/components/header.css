@@ -1,0 +1,30 @@
+.top-header {
+    height: 9.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  img{
+    width:5rem;
+    margin-right: 1rem;
+    border:var(--border);
+    border-radius:0.2rem;
+    border-style: groove;
+  }
+
+  .top-header-text h3{
+    font-family: 'Bacasime Antique', serif;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 200%;
+    font-size: large;
+  }
+  .top-header-text p{
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 600;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 120%;
+    
+  }

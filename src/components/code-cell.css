@@ -1,0 +1,68 @@
+.code-cell {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 9.5rem);
+}
+
+.editor-wrapper,
+.preview {
+  width: 50%;
+  height: 100%;
+}
+
+/* ************************************************ */
+/* header part of code-editor and preview component */
+/* ************************************************ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+}
+
+.index,
+.output {
+  height: 100%;
+  width: 20%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid rgb(86, 86, 86);
+  border-bottom: unset;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.index-dark,
+.output-dark {
+  background:white;
+  color: black;
+   /* #aeafad; */
+}
+.index-light,
+.output-light {
+  background: #eff0f1;
+}
+
+.btn-wrapper {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+.btn-wrapper button {
+  height: 100%;
+  padding: 4px;
+  
+}
+
+.monaco-editor-wrapper,
+.preview-wrapper {
+  height: calc(100% - 2.5rem);
+}
+.monaco-editor-wrapper {
+  border: var(--border);
+  border-right: unset;
+}
